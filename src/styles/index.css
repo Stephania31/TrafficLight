@@ -41,8 +41,15 @@
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  
+
 }
+
+.purple-light-active {
+ 
+  background-color: purple;
+  box-shadow: 25px 25px 25px 25px rgb(230,230,250) ;
+}
+
 .red-light-active {
   box-shadow: 25px 25px 25px 25px rgb(255, 133, 133);
 }
