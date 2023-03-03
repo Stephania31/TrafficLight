@@ -8,6 +8,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	const [active, setActive] = useState("")
   const [purple, setPurple] = useState (false)
+ 
+
+ 
   
   useEffect(()=> {console.log(active)},[active])
 
@@ -27,7 +30,8 @@ const Home = () => {
           <div className={"green-light" + `${active==="green-light"? " green-light-active" : ""}`} onClick={(e)=>{setActive(e.target.className)}}></div>
         </div>
         <br />
-        <button type="button" onClick={(e) => setPurple(!purple)}>Click me</button>
+        <button type="button" className="purple-button text-white border border-white rounded mb-3" onClick={(e) => setPurple(!purple)}>I´m Purple</button>
+        
         
       
       </div>
